@@ -1,4 +1,4 @@
-import { expect, Locator, Page, test } from '@playwright/test';
+import { expect, Locator, Page } from '@playwright/test';
 import { BASE_URL } from '../utils/constants';
 
 export class MenuPage {

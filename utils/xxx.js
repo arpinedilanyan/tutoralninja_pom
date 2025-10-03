@@ -8,5 +8,6 @@
         await page.getByRole('link', { name: 'Continue' }).click();
         await expect(page).toHaveTitle('Your Store');
         await expect(page).toHaveURL('https://tutorialsninja.com/demo/index.php?route=common/home');
+        
 
     });
